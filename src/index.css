@@ -24,7 +24,7 @@ code {
     position: relative;
     color: #fecc5c;
     max-height: max-content;
-    height: 96vh;
+    height: 92vh;
     margin: 10px;
     border: 2px solid;
 }
@@ -44,6 +44,7 @@ code {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 .family {
@@ -101,5 +102,6 @@ code {
         top: 43%;
         left: 7%;
         transform: translate(-1%, -44%);
+        -webkit-transform: translate(-1%, -44%);
     }
 }
