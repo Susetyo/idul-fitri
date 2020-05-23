@@ -24,7 +24,8 @@ code {
     position: relative;
     color: #fecc5c;
     max-height: max-content;
-    height: 92vh;
+    -webkit-max-logical-height: -webkit-fill-available;
+    height: 96vh;
     margin: 10px;
     border: 2px solid;
 }
@@ -76,7 +77,7 @@ code {
 @media screen and (max-width: 768px) {
     .container {
         font-size: 11px;
-        border: 2px solid;
+        border: 0px;
     }
 
     .container img {
