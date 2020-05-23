@@ -1,13 +1,105 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    font-family: "Balsamiq Sans", cursive;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.container-img {
+    background-color: #00788d;
+    background-image: linear-gradient(to left right, #020024, #040463);
+
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.container {
+    position: relative;
+    color: #fecc5c;
+    max-height: max-content;
+    height: 96vh;
+    margin: 10px;
+    border: 2px solid;
+}
+
+.container img {
+    max-width: 50px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.family {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.quote-one,
+.quote-two,
+.quote-three {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.quote-two {
+    /* text-align: right; */
+}
+
+.quote-three {
+}
+
+.quote-four {
+    text-align: center;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        font-size: 11px;
+        border: 2px solid;
+    }
+
+    .container img {
+        max-width: 50px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+
+    .quote-one,
+    .quote-two,
+    .quote-three {
+        font-size: 1rem;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .content {
+        position: absolute;
+        top: 43%;
+        left: 7%;
+        transform: translate(-1%, -44%);
+    }
 }
