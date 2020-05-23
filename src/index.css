@@ -14,7 +14,6 @@ code {
 .container-img {
     background-color: #00788d;
     background-image: linear-gradient(to left right, #020024, #040463);
-
     height: 100vh;
     width: 100%;
     position: absolute;
@@ -25,7 +24,7 @@ code {
     color: #fecc5c;
     max-height: max-content;
     -webkit-max-logical-height: -webkit-fill-available;
-    height: 96vh;
+    height: 100vh;
     margin: 10px;
     border: 2px solid;
 }
@@ -100,9 +99,9 @@ code {
 
     .content {
         position: absolute;
-        top: 43%;
-        left: 7%;
-        transform: translate(-1%, -44%);
-        -webkit-transform: translate(-1%, -44%);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
     }
 }
